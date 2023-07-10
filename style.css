@@ -1,6 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+
+.property {
+  margin: auto;
+}
 .grid {
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
+  gap: 5px;
+  width: 450px;
   height: 300px;
+  margin: auto;
+}
+
+.instruction {
+  display: none;
 }
