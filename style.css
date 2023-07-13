@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  display: none;
   flex-wrap: wrap;
   flex-direction: column;
   height: 100vh;
@@ -20,11 +19,11 @@
 }
 
 .instruction {
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex; */
   height: 50vh;
   width: 50vw;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   margin: auto;
   margin-top: 10vh;
